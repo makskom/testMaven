@@ -18,7 +18,7 @@ public class Test1 {
     public void precondition(){
         System.setProperty("webdriver.chrome.driver", "/home/maks/Загрузки/chromedriver");
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         mainPage = new MainPage(driver);
         declarationPage = new DeclarationPage(driver);
     }
@@ -28,7 +28,7 @@ public class Test1 {
         mainPage.open();
         mainPage.clickGlavnaya();
         mainPage.clickDeclarationPage();
-        declarationPage.enterName("Иванов Иван Иванович");
+        declarationPage.enterName("2014");
     }
 
 

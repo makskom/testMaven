@@ -17,8 +17,8 @@ public class MainPage {
     }
 
     public void open() {
-        //driver.get("https://cabinet.sfs.gov.ua/cabinet/faces/public/reestr.jspx");
-        driver.get("https://cabinet.sfs.gov.ua/cabinet/faces/public/dp00declm.jspx");
+        driver.get("https://cabinet.sfs.gov.ua/cabinet/faces/public/reestr.jspx");
+        //driver.get("https://cabinet.sfs.gov.ua/cabinet/faces/public/dp00declm.jspx");
     }
 
     public void clickGlavnaya(){
